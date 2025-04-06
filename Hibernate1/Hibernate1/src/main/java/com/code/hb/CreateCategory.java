@@ -12,7 +12,7 @@ public  CreateCategory(SessionFactory sessionFactory)
 	//start transaction
 	session.beginTransaction();
 	//create object for Category 
-	Category category=new Category("Electronics","Electric equipments");		
+	Category category=new Category("Electronics","Devices and gadgets");		
 	//save the object
 	session.persist(category);
 	//object of Category
