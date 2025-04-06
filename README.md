@@ -1,5 +1,7 @@
 
 Project Overview
+
+
 An ecommerce based hibernate project for proper management with the mentioned entities along with their mappings ,database connectivity and hibernate applications.
 Entity details
 
@@ -21,4 +23,6 @@ Tasks done in the project
 Insert new Categories, Products, and Users ,Create Orders with multiple OrderDetails Fetch Orders along with associated Users and Products.Mappings and ORM are also established.
 More to know
 Java classes are annotated with JPA annotations like @Entity, @Table, @GeneratedValue, @Id, @OneToMany, and @ManyToOne to map objects to database tables. Relationships between entities (Users, Orders, Products) are handled using proper Hibernate mappings.
+
+
 Project created by Ritam Sarkar
