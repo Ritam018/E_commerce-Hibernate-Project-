@@ -16,7 +16,7 @@ public  CreateCategory(SessionFactory sessionFactory)
 	//save the object
 	session.persist(category);
 	//object of Category
-	category =new Category("Self-care items","Shampoos");
+	category =new Category("Personal care","Self-care items");
 //save the object
       session.persist(category);
     //object of Category
