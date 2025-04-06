@@ -20,7 +20,7 @@ public  CreateCategory(SessionFactory sessionFactory)
 //save the object
       session.persist(category);
     //object of Category
-     category=new Category("Home appliances","Entertainment");    
+     category=new Category("Appliances","Home appliances");    
 //save the object
 session.persist(category);
 
